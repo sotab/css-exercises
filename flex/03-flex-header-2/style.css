@@ -15,14 +15,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 8px;
 }
 
 .gen-menu, .profile-menu{
   display: flex;
-  justify-content: space-between;
   align-items: center;
   gap: 16px;
-  margin: 8px;
+  /* margin: 8px; */
 }
 
 .profile-image {
@@ -57,6 +57,7 @@ a {
 ul {
   list-style-type: none;
   display: flex;
-  justify-content: space-around;
   gap: 16px;
+  margin: 0;
+  padding: 0;
 }
